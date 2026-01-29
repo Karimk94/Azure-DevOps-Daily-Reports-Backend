@@ -1,0 +1,4 @@
+requests
+requests-negotiate-sspi
+fastapi
+uvicorn

@@ -1,0 +1,6 @@
+$body = @{
+    username = "rtadom\okool_kaabdulwahed"
+    password = "YOUR_PASSWORD"
+} | ConvertTo-Json
+
+Invoke-RestMethod -Uri "http://localhost:8081/api/auth/test" -Method POST -ContentType "application/json" -Body $body
